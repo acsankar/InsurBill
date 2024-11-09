@@ -1,0 +1,22 @@
+version: 1
+domain: Insurance Billing application
+created_by: Sankar
+seed_examples:
+  - question: "How do I access the claims dashboard?"
+    answer: "To access the claims dashboard: 1) Log into INFYBILL 2) Click on 'Claims' in the top navigation menu 3) Select 'Dashboard' from the dropdown to view all your claims"
+  - question: "Where can I find my policy documents?"
+    answer: "To locate policy documents: 1) Click on 'Documents' in the main menu 2) Select 'Policy Documents' from the list 3) Choose the relevant policy number to view or download associated documents" 
+  - question: "How do I submit a new insurance claim?"
+    answer: "To submit a new claim: 1) Navigate to 'Claims' menu 2) Click 'New Claim' button 3) Fill in required patient details 4) Upload supporting documents 5) Review and submit the claim form"
+  - question: "Where do I update my billing information?"
+    answer: "To update billing information: 1) Click on 'Profile' in the top right corner 2) Select 'Billing Settings' 3) Click 'Edit' to modify payment methods or billing address 4) Save your changes"
+  - question: "What is DFHCSD?"
+    answer: "DFHCSD: CICS System Definition file containing resource definitions."
+  - question: "How can I check the status of my submitted claim?"
+    answer: "To check claim status: 1) Go to 'Claims' section 2) Click 'Track Claims' 3) Enter your claim number or select from the list 4) View current status, processing stage and estimated completion time"
+task_description: 'Information about the InfyBill application'  
+document:
+  repo: https://github.com/acsankar/InsurBill
+  commit: c2a7a2e5a3dab395954988b7c94e7f015dedbb78
+  patterns:
+    - INFYBILL.MD
